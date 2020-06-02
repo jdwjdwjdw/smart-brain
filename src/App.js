@@ -88,7 +88,7 @@ class App extends Component {
 				.json()
 				.then((response) => {
 					if (response) {
-						fetch('https://limitless-meadow-36904.herokuapp.com:3000/image', {
+						fetch('https://limitless-meadow-36904.herokuapp.com/image', {
 							method: 'put',
 							headers: { 'Content-Type': 'application/json' },
 							body: JSON.stringify({
